@@ -211,16 +211,17 @@ form button {
     }
 
 @media screen and (max-width:1023px) {
-    .front_card .card_container img,.front_card,.back_card img,.back_card{
+    .front_card .card_container img,.front_card,.back_card img,.back_card
+    {
         width: 300px;
     }
-    .card_logo{
+    .card_logo {
         width: 50px;
     }
-    #number{
+    #number {
         font-size: 1.1rem;
     }
-    #cvc{
+    #cvc {
         top: 42%;
         right: 12%;
     }
@@ -229,31 +230,34 @@ form button {
     .container{
         flex-direction: column;
     }
-    .front_card .card_container img,.front_card,.back_card img,.back_card{
+    .front_card .card_container img,.front_card,.back_card img,.back_card
+    {
         width: 280px;
     }
-    .left_section{
+    .left_section {
         width: 100%;
         min-height: 30vh;
         background-image: url('./images/bg-main-mobile.png');
     }
-    .cards{
+    .cards {
         flex-direction: column-reverse;
         left: 61%;
         top: 60%;
         gap: 0;
     }
-    .back_card{
+    .back_card {
         transform: translateY(70px);
     }
-    .front_card{
+    .front_card {
         z-index: 100;
     }
-    .right_section{
+    .right_section {
         /* min-height: 80vh; */
         margin-top: 6rem;
     }
-    
+    .attribution { 
+       margin-top: 30px;
+    }
 }
 
 
