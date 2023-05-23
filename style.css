@@ -250,8 +250,8 @@ form button {
         z-index: 100;
     }
     .right_section{
-        min-height: 80vh;
-        /* margin-top: 6rem; */
+        /* min-height: 80vh; */
+        margin-top: 6rem;
     }
     
 }
